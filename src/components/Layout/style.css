@@ -1,0 +1,23 @@
+.layout {
+  display: grid;
+  grid-template-columns: 1.7fr 1fr;
+  justify-items: center;
+  height: 100vh;
+}
+
+figure {
+  margin: 0;
+  align-self: stretch;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media(max-width: 767px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+}

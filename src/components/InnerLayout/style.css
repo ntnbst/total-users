@@ -1,0 +1,14 @@
+.inner-layout {
+  align-self: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  max-width: 27rem;
+  padding: 0 1rem;
+}
+
+@media(max-width: 767px) {
+  .inner-layout {
+    padding: 1rem 0.4rem 2rem 0.4rem;
+  }
+}
